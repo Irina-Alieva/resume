@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(232, 240, 240);
+  font-family: 'Roboto', sans-serif;
 }
 .container {
   width: 500px;
@@ -16,7 +17,7 @@ body {
   margin: 0;
   padding: 20px;
 }
-.skill, .hobby {
+.skill, .hobby, form {
   background-color: rgb(209, 243, 243);
   padding: 20px 0 20px 10px;
 } 
@@ -53,3 +54,15 @@ ul {
 ul li {
   width: 250px;
 }
+.label, .input {
+ margin: 5px 0 10px 5px;
+ border-radius: 5px;
+ border: none;
+}
+#submit {
+  width: 80px;
+  height: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
