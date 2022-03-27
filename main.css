@@ -3,13 +3,10 @@
 }
 body {
   margin: 0;
-  padding: 0; 
-  background-color: #eee;
-
-
+  padding: 0;   background-color: #eee;
 }
 .container {
-  width: 320px;
+  width: 500px;
   margin: 0 auto;
   padding: 0 10px;  
 }
@@ -24,7 +21,7 @@ body {
 } 
 .heading1, .heading2, .heading3 {
   text-align: center;
-  margin: 0;
+  margin: 10px 0;
 }
 .photo {
   width: 110px;
@@ -32,13 +29,11 @@ body {
   border-radius: 50%;
   overflow: hidden;
   margin: 20px auto;
-
 }
-
 ul {
   display: inline-block;
   width: 250px;  
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 0;
   list-style: none;
 }
@@ -49,6 +44,9 @@ ul {
 @media(max-width:560px) {
   body {
     font-size: 0.8rem;
+  }
+  .container {
+    width: 320px;
   }
 }
 ul li {
